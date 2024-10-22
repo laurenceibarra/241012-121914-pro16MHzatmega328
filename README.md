@@ -26,13 +26,13 @@
 - **Application in Line Following:**
   - **Error Calculation:** The error represents the deviation of the robot from the center of the line. Sensor readings (e.g., 010, 011, 100) indicate the line's position relative to the robot.
   - **Correction Using Proportional Term:** An adjustment value is computed as:
-    \[
-    \text{adjustment} = K_p \times \text{error}
-    \]
-    Where \( K_p \) is a constant that determines the response sensitivity.
+  
+    `adjustment = Kp * error`
+  
+    Where `Kp` is a constant that determines the response sensitivity.
   - **Motor Speed Adjustment:**
-    - \( \text{leftSpeed} = \text{baseSpeed} - \text{adjustment} \)
-    - \( \text{rightSpeed} = \text{baseSpeed} + \text{adjustment} \)
+    - `leftSpeed = baseSpeed - adjustment`
+    - `rightSpeed = baseSpeed + adjustment`
 
 This ensures the robot steers back towards the line, correcting its path smoothly and responsively.
 
