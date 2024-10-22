@@ -4,9 +4,9 @@
 - **Selector Switch:** Enables easy switching between Line Follower and Sumobot modes.
 - **Combat Mode Activation:** A push button initiates Combat Mode with a 5-second delay.
   
-![Schematic Diagram](./Linefollower-Sumobot/schematic.png)
+![Schematic Diagram](./schematic.png)
 
-![Flowchart](./Linefollower-Sumobot/flowchart.png)
+![Flowchart](./flowchart.png)
 
 ## Line Follower Mode
 ### Input Section
